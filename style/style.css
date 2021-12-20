@@ -1,0 +1,313 @@
+*{
+    margin: 100;
+    padding: 100;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navigation{
+    position: absolute;
+    z-index: 10;
+    width:100%;
+}
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.nav-link{
+    color: #ccc !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    background: #dcdde1 !important;
+    color: #262626 !important;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
+}
+
+.page1{
+    position: relative;
+    background-image: url(./assets/images/main-bg.jpg);
+    min-height: 100vh;
+    background-size:cover;
+    background-position:center;
+   padding: 5%;
+}
+.page1 h1{
+    margin-top: 230px;
+    font-size: 70pt;
+    color: #ccc;
+    text-transform:uppercase;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.page1 p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 16;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-bottom: 40px;
+}
+.page1 a{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+
+
+.page2{
+position: relative;
+background-image: url(./assets/images/the-games-bg.jpg);
+min-height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+.contain{
+    padding-top: 10%;
+}
+
+.container-dua{
+    size: 70%;
+}
+.col-3 h4{
+    padding-left: 100px;
+    color: #fff;
+}
+
+.col-3 h1{
+    padding-left: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    }
+#carouselku{
+    size: 50%;
+    padding-top: 100px;
+    margin-left: -140px;
+    
+}
+.carousel-item {
+    text-align: center;
+    padding-bottom: 200px;
+    }
+.carousel-indicators li{
+    height: 1rem !important;
+    width: 2rem !important;
+    border-radius: 50% !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    
+}
+
+.carousel-indicators button {
+    margin-top: -240px;
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+}
+.carousel-control-next{
+    margin-right: -4rem;
+
+}
+.carousel-control-prev{
+    margin-left: -4rem;
+}
+
+.page3{
+    position: relative;
+    background-image: url(./assets/images/features.jpg);
+   background:radial-gradient(circle at right, #000, transparent)radial-gradient(circle at center, rgba(255, 255, 255, 0), transparent), radial-gradient(circle at left, rgba(0, 0, 0, 0.527), transparent),
+    radial-gradient(ellipse at bottom, rgb(8, 8, 8), transparent),
+    url('../img/bg-3.webp');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+.timeline{
+    padding-left: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;    
+    padding-bottom: 20px;
+}
+.timeline h1{
+    font-size: 24pt;
+    color: #ff9900;
+}
+.contain3{
+    padding-top: 10%;
+}
+.feature{
+    color: #fff;
+}
+.feature h1{
+    font-size: 48pt;
+    text-transform: uppercase;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #111;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.page4{
+    position: relative;
+    background-image: url(./assets/images/requirements.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+.headerspec{
+    padding-top: 5%;
+}
+.page4 h1{
+    font-size: 34pt;
+}
+.page4 h2{
+    color: #ff9900;
+}
+.page4 p{
+    padding: -10px;
+}
+.contention{
+    padding-left: 120px;
+}
+.systemrequirements{
+    font-size: 12pt;
+    padding-top: 5%;
+    padding-left: 120px;
+    padding-right: 1080px;
+    padding-bottom: 5%;
+}    
+
+#info_table_wrap {
+    padding-top: 5%;
+    border: 1px solid black;
+  }
+  
+.info_table {
+    border-right:1px solid white;
+    border-left:1px solid white;
+    border-top:1px solid white;
+    border-bottom:1px solid #fff;
+  }
+  .page5{
+    position: relative;
+    background-image: 
+    url(./assets/images/the-games-bg.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size:cover;
+    background-position: center;
+    padding-bottom: 5%;
+    
+}
+.topscore{
+    margin: 320px 0px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topscores{    
+    font-size: 54pt;
+    letter-spacing: 5px;    
+    font-weight: bold;
+}
+.infotex {    
+    font-size: 24pt;
+    padding: 25px 0px 25px 0px;
+}
+.tombol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 20px 100px 20px 100px;
+}
+.page6{
+    background-color: #080A0B;
+    padding-top: 5%;
+    }
+#subkrebsen{
+    margin-top: 190px;
+}
+.form-control::placeholder { 
+    color:black;
+    opacity: 1  ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subkreb{
+    margin-top: 32px;
+    height: 40px;
+}
+#kaki{
+    background-color: #080A0B;
+    
+    color: #fff;
+}
+
+#kaki a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+      }
+html{
+    overflow-x: hidden;
+}
